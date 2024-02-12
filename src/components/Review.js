@@ -54,7 +54,7 @@ const Review = () => {
   return (
     <>
       <div className="review">
-        <p className="author" author-id={data[index].id}>
+        <p className="author" id={`author-${data[index].id}`}>
           {data[index].name}
         </p>
         <p className="job">{data[index].job}</p>
